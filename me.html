@@ -16,21 +16,36 @@
             anination-name: anforh2;
             anination-duration: 5s;
             anination-iteration-count: infinite;
+            font-size:3vw;
+            text-shadow: 2px 2px 4px #000000;
         }
         body{
           border: 10px ridge;
           padding: 20px;
         }
+        @keyframes anforph {
+            from{border-radius: 0%;}
+            to{border-radius: 100%;}
+        }
+        .anph1{
+            width:60%;
+          heigh:auto;
+        }
+         .anph1:hover{
+          anination-name: anforph; 
+          anination-duration: 1s;
+          anination-iteration-count: infinite;
+         }
     </style>
   </head>
+  
   <body style="font-family: sans-serif;background-color: #ffffff;">
-    <h1><span style="color: #000000;">黃以璇的網站
-        <hr></span></h1>
+    <h1 class='title'>黃以璇的網站</h1>
     <p>
       <div style="property: value;">
-        <img src="https://i.pinimg.com/originals/93/e1/ff/93e1ffa4f4af8e488f947163dbf90e47.jpg" alt="alternative text">
+        <img class="anph1" src="https://i.pinimg.com/originals/93/e1/ff/93e1ffa4f4af8e488f947163dbf90e47.jpg" alt="alternative text">
       </div>
-    </p>
+    <hr>
     <p>
       <span style="color: #666666;">我是
         <a href="https://hips.hearstapps.com/hmg-prod/images/fotojet-28-643d1e33efb96.jpg?crop=0.501xw:1.00xh;0,0&resize=640:*">黃以璇</a>
